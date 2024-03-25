@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../../assets/fonts/HelveticaNeueBlack.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../../assets/fonts/HelveticaNeueBold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../../assets/fonts/HelveticaNeueHeavy.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../../assets/fonts/HelveticaNeueLight.otf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../../assets/fonts/HelveticaNeueMedium.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("../../assets/fonts/HelveticaNeueRoman.otf");
+  font-weight: 300;
+}
+* {
+  font-family: "Helvetica Neue";
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+  padding: 1rem 0;
+  border-bottom: 1px black solid;
+  margin-bottom: 1rem;
+}
+.header__logo {
+  font-weight: 700;
+}
+.header__info {
+  width: 25px;
+}
+.header__button {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+  border-radius: 5px;
+  margin-left: auto;
+  color: white;
+  background-color: black;
+  padding: 0.8rem 0.6rem;
+  width: 70%;
+}
+
+.score {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.score__wrapper {
+  width: 50%;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2d2d2d;
+}
+.score__title {
+  color: #aaa5a5;
+}
+.score__text {
+  font-size: 1rem;
+}
+
+.image {
+  background-image: url("../assets/img/pokemongo.gif");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  min-width: 150px;
+  height: 350px;
+  margin: 1rem auto;
+}
+
+.answers {
+  width: 80%;
+  max-width: 700px;
+  margin: 2rem auto;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.answers__button {
+  width: 47%;
+  border-radius: 5px;
+  padding: 0.8rem 0.6rem;
+  background-color: black;
+  color: white;
+}
+.answers__button:hover {
+  background-color: #2d2d2d;
+}/*# sourceMappingURL=index.css.map */
